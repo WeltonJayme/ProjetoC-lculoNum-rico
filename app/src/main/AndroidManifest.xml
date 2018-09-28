@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neona.numbiosis">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".TelaInicialActivity"
+            android:label="@string/telaInicial"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MullerActivity"
+            android:label="@string/titulo_muller" />
+        <activity
+            android:name=".FalsaPosicao"
+            android:label="@string/titulo_falsaPosicao" />
+        <activity
+            android:name=".Secante"
+            android:label="@string/titulo_secante" />
+        <activity android:name=".PlotagemActivity" />
+        <activity
+            android:name=".HelpSecante"
+            android:label="@string/titulo_help_secante" />
+        <activity
+            android:name=".HelpMuller"
+            android:label="@string/titulo_help_muller" />
+        <activity
+            android:name=".HelpFalsaPosicao"
+            android:label="@string/titulo_help_falsa_posicao" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Spline"
+            android:label="Método da Spline" />
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SobreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TelaPacote2"
+            android:label="Escolha o Método" />
+    </application>
+
+</manifest>

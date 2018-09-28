@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait">
+
+    <Button
+        android:id="@+id/btn_muller"
+        android:layout_width="163dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginStart="148dp"
+        android:text="@string/muller"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_falsa_posição"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_falsa_posição"
+        android:layout_width="163dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginRight="127dp"
+        android:layout_marginStart="128dp"
+        android:text="@string/falsa_posicao"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_secante"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_secante"
+        android:layout_width="163dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginStart="149dp"
+        android:text="@string/secante"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

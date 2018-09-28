@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Numbiosis</string>
+
+    <!-- Genericos -->
+    <string name="funcao">Função</string>
+    <string name="txt_EstimativasIniciais">Estimativas Iniciais</string>
+    <string name="txt_Estimativas_A">A</string>
+    <string name="txt_Estimativas_B">B</string>
+    <string name="txt_Estimativas_C">C</string>
+    <string name="txt_hint_Funcao">sin(x) - 2*x^3 + 4</string>
+    <string name="txt_hint_Funcao2">x^2 + x - 6</string>
+    <string name="txt_hint_A">-2.0</string>
+    <string name="txt_hint_B">1.2</string>
+    <string name="txt_hint_C">3.5</string>
+    <string name="txt_hint_x0">1.5</string>
+    <string name="txt_hint_x1">1.7</string>
+    <string name="txt_hint_ERRO">1e-5</string>
+    <string name="txt_hint_N">100</string>
+    <string name="btn_BuscarRaiz">Buscar Raiz</string>
+    <string name="txt_maximoIteracoes">Máximo de Iterações</string>
+    <string name="txt_N">N</string>
+    <string name="txt_erroMinimo">Erro Mínimo</string>
+
+    <!-- MullerActivity -->
+    <string name="titulo_muller">Método de Muller</string>
+    <string name="muller">Muller</string>
+
+    <!-- Secantes -->
+    <string name="titulo_secante">Método das Secantes</string>
+    <string name="secante">Secantes</string>
+
+    <!-- Falsa Posicao -->
+    <string name="titulo_falsaPosicao">Método da Falsa Posição</string>
+    <string name="falsa_posicao">Falsa Posição</string>
+
+    <!-- Spline -->
+    <string name="titulo_spline">Método da Spline</string>
+    <string name="spline">Spline</string>
+
+    <!-- MenuActivity Inicial -->
+    <string name="telaInicial">Escolha o Método</string>
+
+    <!-- MenuActivity  -->
+    <string name="raiz">Cálculo de Raízes</string>
+    <string name="about">Sobre</string>
+
+    <!-- Sobre  -->
+    <string name="textoSobre">O aplicativo <b>Métodos Numéricos</b> foi produzido por alunos do Centro de Informática da Universidade Federal da Paraíba (UFPB)
+                              visando contribuir com o projeto <b>Numbiosis</b>, desenvolvido pelo Prof. Gustavo Oliveira.
+                                \n\nPara mais informações sobre o projeto, acesse o link:\n\n<font><b>http://numbiosis.ci.ufpb.br</b></font></string>
+
+    <!-- Help -->
+    <string name="titulo_help_secante">Método das Secantes</string>
+    <string name="titulo_help_falsa_posicao">Método da Falsa Posição</string>
+    <string name="titulo_help_muller">Método de Muller</string>
+    <string name="descricao">Descrição:</string>
+    <string name="parametros">Parâmetros:</string>
+    <string name="str_help_secante1">Método aberto utilizado para encontrar raízes de maneira aproximada através de secantes que intersectam a função.</string>
+    <string name="str_help_secante2">Possui 2 parâmetros, A e B, que são valores iniciais para o cálculo iterativo da função.</string>
+    <string name="str_help_secante3">A cada nova iteração, um novo x é calculado, verificando se está próximo da raíz da função. Caso esteja dentro do limite
+                                     tolerável, o método retorna o valor encontrado, senão, a iteração continua até que atinja o limite de iterações imposto.</string>
+    <string name="str_help_falsa_posicao1">Método intervalar utilizado para encontrar raízes de maneira aproximada através de retas secantes cuja a intersecção
+                                           com o eixo-x está mais próximo da raíz.</string>
+    <string name="str_help_falsa_posicao2">Os parâmetros A e B são os limites do intervalo no qual a raíz se encontra.</string>
+    <string name="str_help_falsa_posicao3">A cada iteração, é verificado se o valor econtrado está próximo da raíz utilizando o erro estipulado, caso contrário,
+                                           os limites são atualizados e o cálculo é refeito. O valor é retornado se o erro estiver abaixo do informado ou o
+                                           número de iterações atingir o limite.</string>
+    <string name="str_help_muller1">Método aberto que utiliza parábolas para aproximar-se da raíz da função.</string>
+    <string name="str_help_muller2">Possui 3 parâmetros A, B e C, que são usados para a construção da parábola.</string>
+    <string name="str_help_muller3">A cada iteração, é verificada se o valor obtido se encontra próximo da raíz através do erro estimado. Caso o erro seja maior, o
+                                    cálculo continua, senão, é retornada a raiz.</string>
+
+
+    <string name="textView_x0_muller">x0</string>
+    <string name="textView_x1_muller">x1</string>
+    <string name="editText_x0_muller">x0</string>
+    <string name="editText_x1_muller">x1</string>
+    <string name="textView_x2_muller">x2</string>
+    <string name="editText_x2_muller">x2</string>
+    <string name="textView_função_secante">Função</string>
+    <string name="editText_função_secante">Função</string>
+    <string name="textView_x0_secante">x0</string>
+    <string name="textView_x1_secante">x1</string>
+    <string name="editText_x0_secante">x0</string>
+    <string name="editText_x1_secante">x1</string>
+    <string name="textView_tol_secante">tol</string>
+    <string name="textView_n_secante">N</string>
+    <string name="editText_tol_secante">tol</string>
+    <string name="editText_n_secante">n</string>
+    <string name="btn_calcular_secante">Calcular</string>
+    <string name="btn_calcular_muller">Muller</string>
+    <string name="editext_false_N">N</string>
+    <string name="btn_calcular_falsa">Calcular</string>
+    <string name="String_false_Funcao">Função</string>
+    <string name="editText_false_Funcao">Função</string>
+    <string name="String_false_A">A</string>
+    <string name="String_false_B">B</string>
+    <string name="edittext_false_A">a</string>
+    <string name="editText_false_b">b</string>
+    <string name="String_false_Tol">Tol</string>
+    <string name="String_false_X">X</string>
+    <string name="editText_false_Tol">Tol</string>
+    <string name="editText_false_X">X</string>
+    <string name="String_false_N">N</string>
+
+    <!-- Pacote2 -->
+    <string name="btn_pacote2">Pacote 2</string>
+    <!-- Spline -->
+    <string name="textView_função_spline">F(x)</string>
+    <string name="textView_x_spline">x</string>
+    <string name="edittext_hint_x0_spline">x0</string>
+    <string name="edittext_hint_fx0_spline">f(x0)</string>
+    <string name="edittext_hint_x1_spline">x1</string>
+    <string name="edittext_hint_fx1_spline">f(x1)</string>
+    <string name="edittext_hint_x2_spline">x2</string>
+    <string name="edittext_hint_fx2_spline">f(x2)</string>
+    <string name="edittext_hint_x3_spline">x3</string>
+    <string name="edittext_hint_fx3_spline">f(x3)</string>
+    <string name="edittext_hint_x4_spline">x4</string>
+    <string name="edittext_hint_fx4_spline">f(x4)</string>
+    <string name="txt_Prontos_da_funcao">Pontos da Função</string>
+    <string name="btn_BuscarEquacoes">Buscar Equações</string>
+
+
+</resources>
